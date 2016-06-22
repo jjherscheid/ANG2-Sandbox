@@ -1,0 +1,21 @@
+<h1>Specification Patterns</h1>
+<div *ngFor="let person of persons">
+    {{person.name}} - {{person.age}}
+</div>
+<hr>
+<div *ngFor="let female of females">
+    {{female.name}} - {{female.age}}
+</div>
+<hr>
+<div *ngFor="let female of matureFemales">
+    {{female.name}} - {{female.age}}
+</div>
+<hr>
+<div *ngFor="let person of matureOrFemales">
+    {{person.name}} - {{person.age}}
+</div>
+<hr>
+<div *ngFor="let person of immatureOrFemales">
+    {{person.name}} - {{person.age}}
+</div>
+
